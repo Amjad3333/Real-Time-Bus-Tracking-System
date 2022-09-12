@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "622121630656",
+    "project_id": "bus-tracking-e5e93",
+    "storage_bucket": "bus-tracking-e5e93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622121630656:android:eb9139e6cc5b8638436625",
+        "android_client_info": {
+          "package_name": "com.example.realtimebustrackingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622121630656-hugeohmj1cv91nmr46j6uglngth7op42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7wOBOrBwJVSyzM2jgTOkPLjyVUtGGRpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622121630656-hugeohmj1cv91nmr46j6uglngth7op42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

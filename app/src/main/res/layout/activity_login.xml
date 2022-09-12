@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <include layout="@layout/tollbar"
+        android:id="@+id/toolbar_home"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:background="@drawable/login"
+                android:layout_margin="10dp"
+                android:layout_height="200dp">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Log in"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_height="wrap_content"></TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:hint="Email:"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:id="@+id/email_login"
+                android:background="@drawable/edittext_background"
+                android:padding="15dp"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:hint="Password:"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:background="@drawable/edittext_background"
+                android:padding="15dp"
+                android:id="@+id/password_login"
+                android:inputType="textPassword"
+
+                android:layout_height="wrap_content"></EditText>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background1"
+                android:text="Log In"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                app:backgroundTint="#220C0C"
+                app:backgroundTintMode="screen"></Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Forget Password?"
+                android:padding="5dp"
+                android:id="@+id/forget_password"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

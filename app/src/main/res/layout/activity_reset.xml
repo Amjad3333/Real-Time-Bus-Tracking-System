@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reset_password_layout"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResetActivity">
+    <include layout="@layout/tollbar"
+        android:id="@+id/toolbar_home"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="Forgot your password?"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="To reset password, enter your email, press the button and check mail to follow instruction."
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:hint="Email:"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:id="@+id/edt_reset_email"
+                android:background="@drawable/edittext_background"
+                android:padding="15dp"
+                android:layout_height="wrap_content"></EditText>
+
+            <Button
+                android:id="@+id/btn_reset_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background1"
+                android:text="Reset Password"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                app:backgroundTint="#220C0C"
+                app:backgroundTintMode="screen"></Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Back To login page?"
+                android:padding="5dp"
+                android:id="@+id/text_back"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

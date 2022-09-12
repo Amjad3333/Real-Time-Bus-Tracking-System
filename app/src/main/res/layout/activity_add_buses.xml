@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddBuses">
+
+
+    <include layout="@layout/tollbar"
+        android:id="@+id/toolbar_home">
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/bus"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Please Add Bus"
+                android:textColor="@color/black"
+                android:background="@color/toolbar_color"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content">
+            </TextView>
+
+                <EditText
+                    android:id="@+id/bus_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_background"
+                    android:layout_margin="10dp"
+                    android:hint="Bus/Van"
+                    android:padding="15dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"></EditText>
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Bus Number"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:background="@drawable/edittext_background"
+                   android:layout_margin="10dp"
+                    android:padding="15dp"
+                    android:id="@+id/bus_number"
+                    android:layout_height="wrap_content"></EditText>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Driver Name"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:background="@drawable/edittext_background"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    android:id="@+id/bus_driver"
+                    android:layout_height="wrap_content"></EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Bus Stops"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:background="@drawable/edittext_background"
+                    android:layout_margin="10dp"
+                    android:maxLines="3"
+                    android:padding="15dp"
+                    android:id="@+id/bus_stop"
+                    android:layout_height="wrap_content"></EditText>
+
+            <Button
+                android:id="@+id/btn_Addbus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background1"
+                android:text="Add Bus"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                app:backgroundTint="#020202"
+                app:backgroundTintMode="screen"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

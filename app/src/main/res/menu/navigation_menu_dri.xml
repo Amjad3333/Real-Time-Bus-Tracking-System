@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/nav_buses_info"
+        android:icon="@drawable/info"
+        android:title="Buses Info" />
+    <item
+        android:id="@+id/nav_share_location"
+        android:icon="@drawable/track"
+        android:title="Share Location" />
+    <item android:id="@+id/visit"
+        android:title="Visit Web"
+        android:icon="@drawable/web"
+        app:showAsAction="always">
+    </item>
+    <item android:id="@+id/logout"
+        android:title="Log Out"
+        android:icon="@drawable/logout"
+        app:showAsAction="always">
+    </item>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable-anydpi/BusLocation.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable-anydpi/Bus_Location.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable-anydpi/Logout.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable-anydpi/bus_stops.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable-anydpi/button_background1.xml" value="0.19315068493150686" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable/button_background.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable/design.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable/edittext_background.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable/selected_drawable.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/drawable/unselected_drawable.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout-w1240dp/nav_header.xml" value="0.23046875" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout-w1240dp/update_data_item.xml" value="0.23046875" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout-w936dp/headerfile_usr.xml" value="0.18" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout-w936dp/nav_header.xml" value="0.153125" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_add_buses.xml" value="0.12" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_add_driver.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_add_user.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_add_user_driver.xml" value="0.16898148148148148" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_admin.xml" value="0.22" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_bus_info.xml" value="0.16898148148148148" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_bus_list.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_driver.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_driver_info.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_driver_location_sharing.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_driverlistactivity.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_maps.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_maps_tracking.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_my_profile.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_registration.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_reset.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_student.xml" value="0.22" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_studentlist.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_tracking.xml" value="0.16898148148148148" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_web_view.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/activity_webview.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/avatar_list.xml" value="0.15" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/buses_layout.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/driver_list.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/headerfile.xml" value="0.18" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/headerfile_usr.xml" value="0.18" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/list_layout.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/slide_images.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/tollbar.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/tollbar2.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/toolbar1.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/update_bus.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/update_data_item.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/update_driver.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/layout/update_usr.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/menu/bottommenu.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/menu/mainmenu.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/menu/navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/menu/navigation_menu_dri.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/menu/navigation_menu_usr.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/menu/navmenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/mipmap-anydpi-v26/background.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/mipmap-anydpi-v26/background_round.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Amjad Khan/AndroidStudioProjects/RealTimeBusTrackingSystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".AddDriver">
+    <include layout="@layout/tollbar"
+        android:id="@+id/toolbar_home">
+    </include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/registration"
+        android:layout_marginTop="40dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/std_dri_reg_view"
+            android:visibility="visible"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Please add a Driver"
+                android:textStyle="bold"
+                android:background="@color/toolbar_color"
+                android:textColor="@color/black"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:hint="Full Name:"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:id="@+id/name_reg"
+                android:background="@drawable/edittext_background"
+                android:padding="15dp"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:hint="CNIC Number:"
+                android:inputType="number"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:id="@+id/cmsid_reg"
+                android:background="@drawable/edittext_background"
+                android:padding="15dp"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:hint="Email:"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:id="@+id/email_reg"
+                android:background="@drawable/edittext_background"
+                android:padding="15dp"
+
+
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:hint="Password:"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:background="@drawable/edittext_background"
+                android:padding="15dp"
+                android:inputType="textPassword"
+                android:id="@+id/password_reg"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/conf_password_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Confirm Password:"
+                android:padding="15dp"
+                android:textColor="@android:color/white"
+                android:inputType="textPassword"
+                android:textColorHint="@android:color/white"></EditText>
+            <Button
+                android:id="@+id/driver_btn_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background1"
+                android:text="Registration"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                app:backgroundTint="#090908"
+                app:backgroundTintMode="screen"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

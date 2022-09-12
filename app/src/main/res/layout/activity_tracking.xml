@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/traking_background"
+    android:layout_height="match_parent"
+    tools:context=".TrackingActivity">
+    <include layout="@layout/tollbar"
+        android:id="@+id/toolbar_tracking"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Track Your Buses Here"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/track"
+                    android:layout_height="140dp">
+
+                </ImageView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:hint="Enter bus number"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"
+                    android:id="@+id/tracking_number"
+                    android:background="@drawable/edittext_background"
+                    android:padding="20dp"
+                    android:layout_height="wrap_content">
+
+                </EditText>
+                <Button
+                    android:id="@+id/btn_track_bus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="12dp"
+                    android:background="@drawable/button_background1"
+                    android:text="TRACK BUS"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="#090908"
+                    app:backgroundTintMode="screen"></Button>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

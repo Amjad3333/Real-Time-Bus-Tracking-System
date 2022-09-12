@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/nav_user_list"
+        android:icon="@drawable/list"
+        android:title="User List" />
+
+    <item
+        android:id="@+id/nav_driver_list"
+        android:icon="@drawable/list"
+        android:title="Driver List" />
+
+    <item
+        android:id="@+id/nav_buses_list"
+        android:icon="@drawable/list"
+        android:title="Buses List" />
+    <item
+        android:id="@+id/nav_add_user"
+        android:icon="@drawable/add"
+        android:title="Add User" />
+    <item
+        android:id="@+id/nav_add_driver"
+        android:icon="@drawable/add"
+        android:title="Add Driver" />
+    <item
+        android:id="@+id/nav_add_buses"
+        android:icon="@drawable/add"
+        android:title="Add Bus" />
+    <item
+        android:id="@+id/nav_track_bus"
+        android:icon="@drawable/track"
+        android:title="Track Bus" />
+    <item android:id="@+id/visit"
+        android:title="Visit Web"
+        android:icon="@drawable/web"
+        app:showAsAction="always">
+    </item>
+    <item android:id="@+id/logout"
+        android:title="Log Out"
+        android:icon="@drawable/logout"
+        app:showAsAction="always">
+    </item>
+
+
+</menu>
